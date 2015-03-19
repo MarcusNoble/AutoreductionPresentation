@@ -1,0 +1,8 @@
+{
+  "name": "isis-autoreduction",
+  "version": "0.0.0",
+  "dependencies": {
+    "reveal.js": "~3.0.0",
+    "reveal-highlight-themes": "~8.4.0"
+  }
+}
