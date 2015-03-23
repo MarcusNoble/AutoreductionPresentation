@@ -1,3 +1,3 @@
 ##  Technology Stack
 
-![Technologies](/img/technologies.png)
+![Technologies](img/technologies.png)

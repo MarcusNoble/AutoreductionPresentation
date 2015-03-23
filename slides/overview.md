@@ -1,9 +1,5 @@
 ##  Overview
 
-1. Run completes on an instrument
+* A system for running user provided reduction scripts as soon as data becomes available from the beamline.
 
-2. Message is sent to let autoreduction know
-
-3. A reduction script is generated based on pre-defined variables
-
-4. The data is reduced and saved to a user-accessible location
+* A web application to manage and monitor automatic reduction jobs.
