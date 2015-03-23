@@ -1,2 +1,2 @@
 
-![Technologies](img/technologies.png)
+![Technologies](img/Technologies.png)

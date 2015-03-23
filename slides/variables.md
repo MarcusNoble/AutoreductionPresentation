@@ -1,2 +1,2 @@
-<!-- .slide: data-background="url(img/variables.png)" -->
+<!-- .slide: data-background="url(img/Variables.PNG)" -->
 
