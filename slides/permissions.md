@@ -1,4 +1,4 @@
-##  ICAT Permissions
+##  ICAT - Permissions
 
 * Access is controlled by ICAT permissions.
 
