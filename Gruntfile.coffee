@@ -68,6 +68,7 @@ module.exports = (grunt) ->
                         'slides/**'
                         'bower_components/**'
                         'js/**'
+                        'img/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -106,9 +107,12 @@ module.exports = (grunt) ->
                 slides:
                     slides
                 section: (slide) ->
+                    slideContent = grunt.file.read 'slides/' + slide
                     grunt.template.process sectionTemplate, data:
                         slide:
                             slide
+                        slideContent:
+                            slideContent
             grunt.file.write 'index.html', html
 
     grunt.registerTask 'test',

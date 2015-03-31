@@ -89,7 +89,22 @@
                 
                     
                         
-    <section data-markdown="slides/index.md"></section>
+    <section data-markdown="slides/index.md"><script type="text/template">
+# ISIS Autoreduction
+
+**Marcus Noble**<br/>
+*marcus.noble@stfc.ac.uk*
+
+<br/>
+<small>
+    **Lottie Greenwood** - *lottie.greenwood@stfc.ac.uk*
+    <br/>
+    **Anders Markvardsen** - *anders.markvardsen@stfc.ac.uk*
+</small>
+
+<br/>
+<i class="fa fa-github"></i> https://github.com/mantidproject/autoreduce
+</script></section>
 
 
                     
@@ -97,7 +112,10 @@
                 
                     
                         
-    <section data-markdown="slides/inspiration.md"></section>
+    <section data-markdown="slides/inspiration.md"><script type="text/template">##  Inspiration
+
+Thanks to the SNS
+</script></section>
 
 
                     
@@ -105,7 +123,14 @@
                 
                     
                         
-    <section data-markdown="slides/definition.md"></section>
+    <section data-markdown="slides/definition.md"><script type="text/template">## autoreduction
+
+*noun*
+
+1. The process of performing reduction without human interaction
+
+2. A new ISIS webapp service
+</script></section>
 
 
                     
@@ -113,7 +138,12 @@
                 
                     
                         
-    <section data-markdown="slides/overview.md"></section>
+    <section data-markdown="slides/overview.md"><script type="text/template">##  Overview
+
+* A system for running user provided reduction scripts as soon as data becomes available from the beamline.
+
+* A web application to manage and monitor automatic reduction jobs.
+</script></section>
 
 
                     
@@ -121,7 +151,18 @@
                 
                     
                         
-    <section data-markdown="slides/steps.md"></section>
+    <section data-markdown="slides/steps.md"><script type="text/template">##  How it works
+
+1. User sets up reduction scripts and variables in advance
+
+2. Run completes on an instrument
+
+3. Message is sent to let autoreduction know
+
+4. A reduction script is generated based on pre-defined variables
+
+5. The data is reduced and saved to a user-accessible location
+</script></section>
 
 
                     
@@ -129,7 +170,10 @@
                 
                     
                         
-    <section data-markdown="slides/technologies.md"></section>
+    <section data-markdown="slides/technologies.md"><script type="text/template">##  Technology Stack
+
+![Technologies](img/Technologies.png)
+</script></section>
 
 
                     
@@ -137,7 +181,15 @@
                 
                     
                         
-    <section data-markdown="slides/features.md"></section>
+    <section data-markdown="slides/features.md"><script type="text/template">## Features:
+
+* Automatically run user provided scripts as early as possible
+* Provide different scipts for different experiments
+* Modify variables used by the reduction script
+* View previous reduction jobs
+* Re-run failed/incorrect jobs
+* Multi-device friendly
+</script></section>
 
 
                     
@@ -145,7 +197,8 @@
                 
                     
                         
-    <section data-markdown="slides/overviewscreenshot.md"></section>
+    <section data-markdown="slides/overviewscreenshot.md"><script type="text/template"><!-- .slide: data-background="url(img/Overview.PNG)" -->
+</script></section>
 
 
                     
@@ -153,7 +206,9 @@
                 
                     
                         
-    <section data-markdown="slides/variables.md"></section>
+    <section data-markdown="slides/variables.md"><script type="text/template"><!-- .slide: data-background="url(img/Variables.PNG)" -->
+
+</script></section>
 
 
                     
@@ -161,7 +216,8 @@
                 
                     
                         
-    <section data-markdown="slides/run.md"></section>
+    <section data-markdown="slides/run.md"><script type="text/template"><!-- .slide: data-background="url(img/RunSummary.png)" -->
+</script></section>
 
 
                     
@@ -169,7 +225,11 @@
                 
                     
                         
-    <section data-markdown="slides/devices.md"></section>
+    <section data-markdown="slides/devices.md"><script type="text/template">
+
+![](img/Tablet.png) <!-- .element: style="height:45%;width:45%;vertical-align:middle;background:transparent;border:0;" -->
+![](img/Mobile.png) <!-- .element: style="height:45%;width:45%;vertical-align:middle;background:transparent;border:0;" -->
+</script></section>
 
 
                     
@@ -177,7 +237,9 @@
                 
                     
                         
-    <section data-markdown="slides/icat.md"></section>
+    <section data-markdown="slides/icat.md"><script type="text/template">##  So where does ICAT fit in?
+
+</script></section>
 
 
                     
@@ -185,7 +247,9 @@
                 
                     
                         
-    <section data-markdown="slides/technologies2.md"></section>
+    <section data-markdown="slides/technologies2.md"><script type="text/template">
+![Technologies](img/Technologies.png)
+</script></section>
 
 
                     
@@ -193,7 +257,16 @@
                 
                     
                         
-    <section data-markdown="slides/permissions.md"></section>
+    <section data-markdown="slides/permissions.md"><script type="text/template">##  ICAT - Permissions
+
+* Access is controlled by ICAT permissions.
+
+* New groups created for Autoreduction Admins.
+
+* Instrument scientists given access to their associated instrument.
+
+* Users given access to experiments they were part of.
+</script></section>
 
 
                     
@@ -201,7 +274,14 @@
                 
                     
                         
-    <section data-markdown="slides/backfill.md"></section>
+    <section data-markdown="slides/backfill.md"><script type="text/template">##  ICAT - Backfill
+
+* Ability to reduce past data
+
+* Calls ICAT for a given run range and instrument, returning all data paths
+
+* "Emulates" the message sent when a run finishes on the beamline
+</script></section>
 
 
                     
@@ -209,7 +289,8 @@
                 
                     
                         
-    <section data-markdown="slides/thanks.md"></section>
+    <section data-markdown="slides/thanks.md"><script type="text/template">##  Thank You
+</script></section>
 
 
                     
